@@ -1,0 +1,29 @@
+column_name,column_type,min,max,approx_unique,avg,std,q25,q50,q75,count,null_percentage
+_source_row,UINTEGER,0,10448858,9803105,5224429.0,3016325.9225249244,2614961,5222039,7836156,10448859,0.00
+reviewId,VARCHAR,0000041c-528b-4c18-a8a6-393e716084c4,fffffda2-271b-488c-bf37-9c3f1a2373ce,9995022,,,,,,10448859,0.00
+userName,VARCHAR,Pengguna Google,Pengguna Google,1,,,,,,10448859,0.00
+userImage,VARCHAR,https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g,https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g,1,,,,,,10448859,0.00
+content,VARCHAR,! !,󠀺󠀸󠀸󠀰󠀴󠀶󠀱󠀱󠀱󠀡󠀡󠀢󠀣󠀦󠀧󠀧󠀤󠀤󠀣󠀣󠀨󠀨󠀩󠀪󠀫󠀬󠀮󠀮󠀯󠀯󠀷󠀷󠀿󠀭󠀶󠀼󠀻󠀹󠀹󠀸󠀸󠁂󠀰󠀱󠀲󠀴󠀴󠀴󠀷󠀷󠁍󠁉󠁉󠁓󠁍󠁎󠁎󠁠󠁠󠁛󠁛󠁕󠁞󠁞󠁟󠁟󠁔󠁔󠁔󠁛󠁋󠁋󠁈󠁈󠁈󠁈󠁈󠁂󠁂󠁈󠁈󠁈󠁉󠁌󠁉󠁉󠁊󠁊󠁎󠁎󠁎󠁘󠁘󠁓󠁅󠁅󠁅󠁀󠁀󠁉󠁉󠁉󠁉󠀳󠀳󠀸󠀷󠀸󠀸󠁔󠁊󠁊󠁊󠁊󠁊󠁄󠁓󠁓󠁓󠁗󠁗󠁗󠁗󠁗󠀬󠀬󠀦󠀦󠀦󠀡󠀣󠀣󠀣󠀣󠀣󠁐󠁐󠁐󠁐󠁐󠁐󠁜󠁜󠁜󠁜󠁝󠁝󠁝󠁝󠁘󠁠󠁠󠁡󠁡󠁐󠁈󠁈󠀺󠀸󠀸󠀰󠀴󠀶󠀱󠀱󠀱󠀡󠀡󠀢󠀣󠀦󠀧󠀧󠀤󠀤󠀣󠀣󠀨󠀨󠀩󠀪󠀫󠀬󠀮󠀮󠀯󠀯󠀷󠀷󠀿󠀭󠀶󠀼󠀻󠀹󠀹󠀸󠀸󠁂󠀰󠀱󠀲󠀴󠀴󠀴󠀷󠀷󠁍󠁉󠁉󠁓󠁍󠁎󠁎󠁠󠁠󠁛󠁛󠁕󠁞󠁞󠁟󠁟󠁔󠁔󠁔󠁛󠁋󠁋󠁈󠁈󠁈󠁈󠁈󠁂󠁂󠁈󠁈󠁈󠁉󠁌󠁉󠁉󠁊󠁊󠁎󠁎󠁎󠁘󠁘,6900143,,,,,,10448859,0.00
+score,BIGINT,0,5,6,3.777313676067406,1.689411631354666,2,5,5,10448859,0.00
+thumbsUpCount,BIGINT,0,43282,3419,1.0520973629752302,65.80397856764563,0,0,0,10448859,0.00
+reviewCreatedVersion,VARCHAR,1.1.11.10.2,2.2.17.12329,413,,,,,,10448859,34.24
+at,TIMESTAMP,2016-09-24 10:10:08,2026-09-27 07:20:57,8482311,2021-06-06 00:55:50.519352,,2019-10-08 21:17:22.072256,2020-12-10 09:51:30.359592,2023-03-23 05:38:41.757475,10448859,0.00
+replyContent,VARCHAR,"""Dear, kami menyesal BUG yg telah diunduh sebelumnya akan menambah size paket game Anda utk smntr. Kami telah memperbaiki masalah ini secara online. Saat dwnld data selesai, size paket akan normal, & unduhan extra akan lbh lama karena dwnld data ini. Disarankan Anda selesaikan dwnld data dgn WIFI & pengalaman akan lbh sempurna! Terima kasih!""",untuk  pemilihan lawan dan teman adalah dipilih secara acak ya kak,1550,,,,,,10448859,98.67
+repliedAt,TIMESTAMP,2017-03-31 05:48:25,2026-09-22 08:42:48,113515,2023-12-20 20:36:09.160596,,2022-12-19 16:24:41.079586,2024-03-19 06:22:20.387737,2026-04-05 04:43:34.280368,10448859,98.88
+appVersion,VARCHAR,1.1.11.10.2,2.2.17.12329,413,,,,,,10448859,34.24
+score_raw,VARCHAR,0,5,6,,,,,,10448859,0.00
+thumbsUpCount_raw,VARCHAR,0,999,2658,,,,,,10448859,0.00
+at_raw,VARCHAR,2016-09-24 10:10:08,2026-09-27 07:20:57,10909028,,,,,,10448859,0.00
+repliedAt_raw,VARCHAR,2017-03-29 04:56:43,2026-09-22 08:42:48,134422,,,,,,10448859,98.67
+content_length,UINTEGER,1,3676,1302,51.14763991527864,72.34501604170808,9,23,63,10448859,0.00
+invalid_review_id,BOOLEAN,false,false,1,,,,,,10448859,0.00
+invalid_content,BOOLEAN,false,true,2,,,,,,10448859,0.00
+invalid_score,BOOLEAN,false,true,2,,,,,,10448859,0.00
+invalid_review_date,BOOLEAN,false,false,1,,,,,,10448859,0.00
+invalid_thumbs,BOOLEAN,false,false,1,,,,,,10448859,0.00
+invalid_reply_date,BOOLEAN,false,false,1,,,,,,10448859,0.00
+reply_before_review,BOOLEAN,false,true,2,,,,,,10448859,0.00
+quarantined,BOOLEAN,false,true,2,,,,,,10448859,0.00
+quarantine_reason,VARCHAR,"",missing_content;,3,,,,,,10448859,0.00
+has_reply,BOOLEAN,false,true,2,,,,,,10448859,0.00
+reply_delay_hours,DOUBLE,0.0038888888888888888,4835.663333333333,57484,18.27523635947337,40.899461706471115,2.0673122638928976,6.850812470490688,18.17366872858134,10448859,98.88

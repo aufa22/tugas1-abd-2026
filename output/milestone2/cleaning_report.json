@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-10-09T16:13:10.151098+00:00",
+  "input_name": "mobilelegends.csv",
+  "input_bytes": 3088872733,
+  "sha256": "fc79f6d1499938f6a62d470f0e8bad029042ddb149ad4bfd18c729caddf26431",
+  "python": "3.13.15",
+  "polars": "1.44.2",
+  "duckdb": "1.5.5",
+  "missing_optional_columns": [],
+  "raw_rows": 10448859,
+  "quarantined_rows": 24,
+  "duplicate_rows_removed": 0,
+  "clean_rows": 10448835,
+  "dataset_meets_size_rule": true,
+  "outlier_rules": {
+    "thumbsUpCount": {
+      "q1": 0.0,
+      "q3": 0.0,
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    "content_length": {
+      "q1": 9.0,
+      "q3": 63.0,
+      "lower": -72.0,
+      "upper": 144.0
+    }
+  },
+  "validation": {
+    "clean_rows": 10448835,
+    "duplicate_ids": 0,
+    "missing_ids": 0,
+    "empty_content": 0,
+    "bad_scores": 0,
+    "bad_dates": 0,
+    "negative_thumbs": 0,
+    "negative_reply_time": 0,
+    "quarantine_leak": 0,
+    "thumbs_outliers": 410901,
+    "length_outliers": 894876
+  },
+  "quality_flags": {
+    "invalid_review_id": 0,
+    "invalid_content": 18,
+    "invalid_score": 6,
+    "invalid_review_date": 0,
+    "invalid_thumbs": 0,
+    "invalid_reply_date": 0,
+    "reply_before_review": 22030
+  },
+  "elapsed_seconds": 461.09,
+  "dedup_partitions": 128,
+  "dedup_policy": "first valid record in source CSV order",
+  "outlier_policy": "retain and flag; IQR 1.5 after deduplication",
+  "date_policy": "naive source times retained; offset times normalized to UTC naive"
+}
