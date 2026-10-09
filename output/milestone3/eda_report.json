@@ -1,0 +1,97 @@
+{
+  "generated_at_utc": "2026-10-09T16:57:20.081767+00:00",
+  "input": "mobilelegends_clean.parquet",
+  "input_bytes": 657851470,
+  "validation": {
+    "n": 10448835,
+    "duplicate_or_null_ids": 0,
+    "blank_ids": 0,
+    "bad_scores": 0,
+    "bad_content": 0,
+    "bad_dates": 0
+  },
+  "stats": {
+    "n": 10448835,
+    "start_date": "2016-09-24 10:10:08",
+    "end_date": "2026-09-27 07:20:57",
+    "avg_score": 3.7773152700755634,
+    "low_count": 2833547,
+    "reply_count": 138739,
+    "median_content_length": 23.0,
+    "median_reply_hours": 6.8613888888888885,
+    "delay_n": 116709
+  },
+  "min_version_reviews": 100,
+  "min_month_reviews": 30,
+  "trend": {
+    "eligible_months": 119,
+    "min_n": 30,
+    "first_month": "2016-10-01",
+    "last_month": "2026-08-01",
+    "rating_difference": -0.32702657585146877
+  },
+  "insights": [
+    "Rating rata-rata 3.777/5 pada 10,448,835 ulasan valid unik, periode 2016-09-24 10:10:08 sampai 2026-09-27 07:20:57. Ini menggambarkan review teramati, bukan seluruh pemain.",
+    "Rating paling sering adalah 5 bintang: 6,309,889 ulasan (60.39% dari 10,448,835). Jika seri, rating lebih kecil dipilih sebagai laporan tunggal; distribusi lengkap ada pada tabel ratings.",
+    "Rating rendah (1–2) mencapai 2,833,547/10,448,835 (27.12%). Kategori ini adalah definisi rating rendah, bukan label sentimen NLP.",
+    "Bulan dengan ulasan terbanyak adalah 2020-07-01: 282,931 (2.71% dari semua review). Volume ini tidak sama dengan jumlah pemain aktif; bulan batas dapat parsial.",
+    "Balasan pengembang tersedia pada 138,739/10,448,835 ulasan (1.33%). Review tanpa balasan pada snapshot tidak membuktikan tidak pernah dibalas.",
+    "Median panjang review adalah 23.0 karakter Unicode. Nilai ini termasuk emoji dan spasi internal, serta tidak mengukur kualitas argumen pengguna.",
+    "Median durasi balasan 6.86 jam, berdasarkan 116,709 review dengan balasan dan tanggal valid (bukan semua 138,739 review yang memiliki balasan). Seleksi ini dapat bias dan zona waktu perlu diverifikasi.",
+    "Pada bulan tengah dengan n≥30, rating rata-rata berubah dari 4.294 (2016-10-01, n=1,963) ke 3.967 (2026-08-01, n=54,728), selisih -0.327 poin. Perbandingan dua titik bukan uji signifikansi atau bukti tren monoton."
+  ],
+  "figures": [
+    {
+      "name": "01_monthly_volume",
+      "title": "Volume ulasan per bulan",
+      "note": "Bulan pertama/terakhir dapat parsial; bulan kosong memiliki volume nol."
+    },
+    {
+      "name": "02_monthly_rating",
+      "title": "Rating dan proporsi ulasan rendah",
+      "note": "Dua sumbu memakai satuan berbeda. Bulan tanpa review tidak memiliki nilai rating."
+    },
+    {
+      "name": "03_rating_distribution",
+      "title": "Distribusi rating 1–5",
+      "note": "Denominator persentase adalah seluruh ulasan valid unik."
+    },
+    {
+      "name": "04_monthly_mix",
+      "title": "Komposisi rating per bulan",
+      "note": "Jumlah proporsi per bulan terisi adalah 100%; bulan kosong tidak diimputasi."
+    },
+    {
+      "name": "05_weekday_hour",
+      "title": "Pola ulasan menurut hari dan jam",
+      "note": "Jumlah total per slot sepanjang periode; bukan tingkat aktivitas seluruh pemain dan bukan otomatis WIB."
+    },
+    {
+      "name": "06_version_rating",
+      "title": "Rating menurut versi game",
+      "note": "Maksimal 15 versi terbanyak dengan n≥100; perbedaan bukan bukti efek patch karena waktu/pengguna dapat berbeda."
+    },
+    {
+      "name": "07_reply_rate",
+      "title": "Ketersediaan balasan menurut rating",
+      "note": "Denominator adalah jumlah ulasan pada masing-masing rating; snapshot bukan riwayat balasan lengkap."
+    },
+    {
+      "name": "08_reply_delay",
+      "title": "Median dan rentang Q1–Q3 durasi balasan",
+      "note": "Titik menunjukkan median dan garis menunjukkan Q1–Q3, bukan confidence interval. Hanya balasan bertanggal valid, tidak termasuk yang belum dibalas."
+    },
+    {
+      "name": "09_metadata_missing",
+      "title": "Kelengkapan metadata setelah cleaning",
+      "note": "Missing bersifat berbeda: tidak ada balasan pada snapshot tidak sama dengan error input."
+    }
+  ],
+  "versions": {
+    "python": "3.13.15",
+    "duckdb": "1.5.5",
+    "polars": "1.44.2",
+    "plotly": "7.1.0"
+  },
+  "elapsed_seconds": 35.39
+}
