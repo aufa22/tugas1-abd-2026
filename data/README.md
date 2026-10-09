@@ -6,14 +6,14 @@ Dataset yang digunakan adalah **Mobile Legend Playstore Dataset** dari Kaggle. D
 
 ### Informasi Dataset
 
-| Item                    | Isi                                                                                                                                                                               |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Nama dataset            | Mobile Legend Playstore Dataset                                                                                                                                                   |
-| Sumber                  | Kaggle — https://www.kaggle.com/datasets/dewanakretarta/mobile-legend-playstore-dataset                                                                                           |
+| Item | Isi |
+|---|---|
+| Nama dataset | Mobile Legend Playstore Dataset |
+| Sumber | Kaggle — https://www.kaggle.com/datasets/dewanakretarta/mobile-legend-playstore-dataset |
 | Lisensi/ketentuan pakai | Belum dapat diverifikasi dari metadata Kaggle yang tersedia secara publik; periksa kembali bagian License pada halaman Kaggle sebelum redistribusi atau penggunaan di luar tugas. |
-| Ukuran                  | ±548.250–548.260 baris ulasan; belum memenuhi ketentuan >1.000.000 baris pada tugas. Ukuran file dalam MB belum dapat diverifikasi dari sumber yang tersedia.                     |
-| Periode data            | Tidak disebutkan secara eksplisit pada sumber yang dapat diverifikasi. Dataset tercatat sebagai dataset Kaggle oleh Dewanakretarta pada 2023.                                     |
-| Unit analisis           | Satu ulasan/review pengguna Mobile Legends: Bang Bang pada Google Play Store.                                                                                                     |
+| Ukuran | ±548.250–548.260 baris ulasan; belum memenuhi ketentuan >1.000.000 baris pada tugas. Ukuran file dalam MB belum dapat diverifikasi dari sumber yang tersedia. |
+| Periode data | Tidak disebutkan secara eksplisit pada sumber yang dapat diverifikasi. Dataset tercatat sebagai dataset Kaggle oleh Dewanakretarta pada 2023. |
+| Unit analisis | Satu ulasan/review pengguna Mobile Legends: Bang Bang pada Google Play Store. |
 
 ### Catatan Kesesuaian dengan Ketentuan Tugas
 
@@ -25,14 +25,14 @@ Karena itu, dataset perlu dikonfirmasi kepada dosen atau diganti dengan dataset 
 
 Pilih dataset Indonesia yang legal digunakan, dapat didokumentasikan sumbernya, dan memenuhi batas ukuran tugas.
 
-| Situs                                                               | Kegunaan                                                                 |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [Satu Data Indonesia](https://data.go.id/)                          | Portal data terbuka lintas instansi pemerintah Indonesia.                |
-| [Badan Pusat Statistik](https://www.bps.go.id/)                     | Statistik sosial, ekonomi, kependudukan, dan data wilayah.               |
-| [BMKG Data Online](https://dataonline.bmkg.go.id/)                  | Data cuaca, iklim, gempa bumi, dan observasi meteorologi.                |
-| [Hugging Face Datasets](https://huggingface.co/datasets)            | Dataset publik yang dapat dicari berdasarkan topik, bahasa, atau ukuran. |
-| [Kaggle Datasets](https://www.kaggle.com/datasets)                  | Katalog dataset publik; periksa lisensi dan dokumentasi pembuatnya.      |
-| [Google Dataset Search](https://datasetsearch.research.google.com/) | Mesin pencari untuk menemukan dataset dari berbagai portal.              |
+| Situs | Kegunaan |
+|---|---|
+| [Satu Data Indonesia](https://data.go.id/) | Portal data terbuka lintas instansi pemerintah Indonesia. |
+| [Badan Pusat Statistik](https://www.bps.go.id/) | Statistik sosial, ekonomi, kependudukan, dan data wilayah. |
+| [BMKG Data Online](https://dataonline.bmkg.go.id/) | Data cuaca, iklim, gempa bumi, dan observasi meteorologi. |
+| [Hugging Face Datasets](https://huggingface.co/datasets) | Dataset publik yang dapat dicari berdasarkan topik, bahasa, atau ukuran. |
+| [Kaggle Datasets](https://www.kaggle.com/datasets) | Katalog dataset publik; periksa lisensi dan dokumentasi pembuatnya. |
+| [Google Dataset Search](https://datasetsearch.research.google.com/) | Mesin pencari untuk menemukan dataset dari berbagai portal. |
 
 ## Cara Memperoleh Data
 
